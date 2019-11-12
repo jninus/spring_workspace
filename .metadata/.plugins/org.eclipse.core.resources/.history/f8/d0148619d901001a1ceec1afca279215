@@ -1,0 +1,16 @@
+package com.redondo.spring.springjavaconfig.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.redondo.spring.springjavaconfig.dao.Dao;
+
+public class Service {
+
+	@Autowired
+	Dao dao;
+
+	public void save() {
+		dao.create();
+	}
+
+}

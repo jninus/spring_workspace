@@ -1,0 +1,24 @@
+package com.redondo.spring.springcoreadvanced.injecting.interfaces;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class OrderBOImpl implements OrderBO {
+
+	private OrderDAO dao;
+
+	@Override
+	public void placeOrder() {
+		System.out.println("Inside Order Bo");
+		dao.createOrder();
+	}
+
+	public OrderDAO getDao() {
+		return dao;
+	}
+
+	public void setDao(OrderDAO dao) {
+		this.dao = dao;
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.redondo.spring.springcoreadvanced.stereotypes.annotations;
+
+public class Instructor {
+
+}

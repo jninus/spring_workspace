@@ -1,0 +1,12 @@
+package java.complete;
+
+
+//
+/**/
+public class Animal {
+	
+	public static final double FAVNUMBER = 1.6820;
+	private String name;
+	
+
+}

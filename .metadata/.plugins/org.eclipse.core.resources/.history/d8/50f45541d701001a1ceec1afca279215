@@ -1,0 +1,5 @@
+package com.redondo.spring.springjavaconfig.config;
+
+public class SpringConfig {
+
+}

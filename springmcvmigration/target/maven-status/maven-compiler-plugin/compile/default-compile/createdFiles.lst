@@ -1,0 +1,4 @@
+com/redondo/migration/dto/Employee.class
+com/redondo/migration/controller/HelloController.class
+com/redondo/migration/config/SpringConfig.class
+com/redondo/migration/config/WebServletConfiguration.class

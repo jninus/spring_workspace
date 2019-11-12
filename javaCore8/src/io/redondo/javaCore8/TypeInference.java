@@ -1,0 +1,23 @@
+package io.redondo.javaCore8;
+
+public class TypeInference {
+
+	public static void main(String[] args) {
+
+//		StringLambda mylambda = s -> s.length();
+//
+//		System.out.println(mylambda.getLength("Hello Lambda"));
+		printLambda(s -> s.length());
+
+	}
+
+	public static void printLambda(StringLambda l) {
+		System.out.println(l.getLength("Hello Lambda"));
+
+	}
+
+	interface StringLambda {
+		int getLength(String s);
+	}
+
+}

@@ -1,0 +1,19 @@
+package java.complete;
+
+//
+/**/
+public class Animal {
+
+	public static final double FAVNUMBER = 1.6820;
+	private String name;
+	private int weight;
+	private boolean hasOwner;
+	private byte age;
+	private long uniqueID;
+	private char favoriteChar;
+	private double speed;
+	private float height;
+
+	protected static int numberOfAnimals = 0;
+
+}

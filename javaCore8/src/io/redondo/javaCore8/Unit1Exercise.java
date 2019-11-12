@@ -1,0 +1,17 @@
+package io.redondo.javaCore8;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class Unit1Exercise {
+	public static void main(String[] args) {
+		List<Person> people = Arrays.asList(new Person("Reda", "Zejli", 29), new Person("Jack", "Reacher", 20),
+				new Person("Arthur", "Bishop", 43), new Person("Billy", "Boy", 23),
+				new Person("Frankie", "De jong", 21),new Person("John", "Wick", 39));
+
+		// Step 1. Sort elements by last Name
+		// Step 2. Create a method that print all the elements
+		// Step 3. Create a method that print all people thath elements begins with B
+	}
+
+}

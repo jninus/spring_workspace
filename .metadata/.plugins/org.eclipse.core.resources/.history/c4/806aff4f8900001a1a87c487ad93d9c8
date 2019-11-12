@@ -1,0 +1,7 @@
+package com.redondo.spring.springjdbc.employee.dao;
+
+public interface EmployeeDAO {
+	
+	int create(EmployeeDAO employee);
+
+}

@@ -1,0 +1,11 @@
+package com.redondo.spring.springcoreadvanced.injecting.interfaces;
+
+public class OrderBOImpl implements OrderBO {
+
+	@Override
+	public void placeOrder() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

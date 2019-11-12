@@ -1,0 +1,12 @@
+package io.redondo.javaCore8;
+
+public class ExceptionHandlingExample {
+
+	public static void main(String[] args) {
+
+		int[] numbers = { 1, 2, 3, 4 };
+		int key = 2;
+
+	}
+
+}

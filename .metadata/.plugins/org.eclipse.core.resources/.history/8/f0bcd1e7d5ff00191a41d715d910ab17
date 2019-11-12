@@ -1,0 +1,12 @@
+package com.redondo.spring.springcoreadvanced.injecting.interfaces;
+
+public class OrderBOImpl implements OrderBO {
+	
+	OrderDAO dao;
+
+	@Override
+	public void placeOrder() {
+		System.out.println("Inside Order Bo");
+	}
+
+}

@@ -1,0 +1,22 @@
+package com.redondo.spring.springorm.assignement.passenger.dao.impl;
+
+import java.util.List;
+
+import com.redondo.spring.springorm.assignement.passenger.dao.PassengerDao;
+import com.redondo.spring.springorm.assignement.passenger.entity.Passenger;
+
+public class assengerDaoImpl implements PassengerDao {
+
+	@Override
+	public Passenger find(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Passenger> finAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

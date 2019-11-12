@@ -1,0 +1,7 @@
+package com.redondo.spring.springjdbc.passenger.rowmapper;
+
+import org.springframework.jdbc.core.RowMapper;
+
+public class PassengerRowMapper implements RowMapper<T> {
+
+}

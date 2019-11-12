@@ -1,0 +1,23 @@
+package com.redondo.migration.config;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.ViewResolver;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+import org.springframework.web.servlet.view.InternalResourceViewResolver;
+
+@ComponentScan("com.redondo.migration")
+@EnableWebMvc
+@Configuration
+public class SpringConfig extends WebMvcConfigurerAdapter {
+
+	public ViewResolver viewResolver() {
+
+		InternalResourceViewResolver resolver = new InternalResourceViewResolver();
+
+		return resolver;
+
+	}
+
+}

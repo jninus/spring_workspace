@@ -1,0 +1,9 @@
+package com.redondo.spring.boot.springboot.dao;
+
+public class Dao {
+
+	public void create() {
+		System.out.println("Created successfully");
+	}
+
+}

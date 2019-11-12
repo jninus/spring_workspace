@@ -1,0 +1,47 @@
+package com.reda.springmvcorm.services.impl;
+
+import java.util.Collections;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.reda.springmvcorm.dao.UserDao;
+import com.reda.springmvcorm.entity.User;
+import com.reda.springmvcorm.services.UserService;
+
+@Service
+public class UserServiceImpl implements UserService {
+
+	@Autowired
+	private UserDao dao;
+
+	public UserDao getDao() {
+		return dao;
+	}
+
+	public void setDao(UserDao dao) {
+		this.dao = dao;
+	}
+
+	@Override
+	@Transactional
+	public int save(User user) {
+		// Business Logic here
+		return dao.createUser(user);
+	}
+
+	@Override
+	public List<User> getUsers() {
+		List<User> users = dao.findUsers();
+		Collections.sort(users);
+		return users;
+	}
+
+	@Override
+	public User getUser(int id) {
+		return dao.findUser(id);
+	}
+
+}

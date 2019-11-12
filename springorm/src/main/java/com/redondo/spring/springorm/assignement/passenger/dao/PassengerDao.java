@@ -1,0 +1,13 @@
+package com.redondo.spring.springorm.assignement.passenger.dao;
+
+import java.util.List;
+
+import com.redondo.spring.springorm.assignement.passenger.entity.Passenger;
+
+public interface PassengerDao {
+
+	Passenger find(int id);
+
+	List<Passenger> findAll();
+
+}

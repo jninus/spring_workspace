@@ -1,0 +1,15 @@
+package io.redondo.javaCore8;
+
+public class Test {
+
+	public void greet() {
+		System.out.println("Hello world!");
+	}
+
+	public static void main(String[] args) {
+		Test t = new Test();
+		t.greet();
+
+	}
+
+}

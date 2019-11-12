@@ -1,0 +1,11 @@
+package com.redondo.spring.springjdbc.employee.dao;
+
+import com.redondo.spring.springjdbc.employee.entity.Employee;
+
+public interface EmployeeDao {
+	
+	int create(Employee employee);
+	int update(Employee employee);
+	int delete(int id);
+
+}

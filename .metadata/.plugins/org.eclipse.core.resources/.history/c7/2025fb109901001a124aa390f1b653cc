@@ -1,0 +1,15 @@
+package com.reda.springmvcorm.services.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.reda.springmvcorm.dao.UserDao;
+import com.reda.springmvcorm.services.UserService;
+
+@Service
+public class UserServiceImpl implements UserService {
+
+	@Autowired
+	private UserDao ao;
+
+}

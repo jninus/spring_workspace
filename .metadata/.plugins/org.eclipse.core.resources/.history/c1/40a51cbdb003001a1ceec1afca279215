@@ -1,0 +1,11 @@
+package io.redondo.javaCore8;
+
+public class HelloWorldGreeting implements Greeting {
+
+	@Override
+	public void perform() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

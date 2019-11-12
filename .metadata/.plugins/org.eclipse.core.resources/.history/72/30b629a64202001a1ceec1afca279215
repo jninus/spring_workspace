@@ -1,0 +1,5 @@
+package com.redondo.migration.config;
+
+public class SpringConfig {
+
+}

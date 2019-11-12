@@ -1,0 +1,5 @@
+package com.redondo.spring.springjavaconfig.dao;
+
+public class Dao {
+
+}

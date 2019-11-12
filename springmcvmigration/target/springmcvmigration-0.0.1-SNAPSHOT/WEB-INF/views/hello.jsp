@@ -1,0 +1,34 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+ <%@ page isELIgnored="false" %>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Hello</title>
+</head>
+<body>
+	<%
+		Integer id = (Integer) request.getAttribute("id");
+		String name = (String) request.getAttribute("name");
+		Integer salary = (Integer) request.getAttribute("salary");
+		out.println("Id :" + id);
+		out.println("Name :" + name);
+		out.println("Salary :" + salary);
+	%>
+	<br>
+	<h4>
+		Id : <b>${id}</b>
+	</h4>
+	<h4>
+		Name : <b>${name}</b>
+	</h4>
+	<h4>
+		Salary :<b>${salary}</b>
+	</h4>
+
+
+
+
+
+</body>
+</html>

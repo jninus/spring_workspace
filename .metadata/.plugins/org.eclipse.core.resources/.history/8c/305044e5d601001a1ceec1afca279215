@@ -1,0 +1,8 @@
+package com.redondo.spring.springjavaconfig.dao;
+
+public class Dao {
+	public void create() {
+		System.out.println("Call create method");
+	}
+
+}

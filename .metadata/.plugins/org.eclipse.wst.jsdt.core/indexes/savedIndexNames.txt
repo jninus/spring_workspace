@@ -1,0 +1,9 @@
+INDEX VERSION 1.4+/home/reda/Documents/Projet/JAVAEE/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+3006591378.index
+1119379719.index
+3835636199.index
+963289223.index
+838636377.index
+25994713.index
+3870586311.index
+25981260.index

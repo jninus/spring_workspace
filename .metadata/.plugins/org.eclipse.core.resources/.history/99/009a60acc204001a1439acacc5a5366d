@@ -1,0 +1,13 @@
+package io.redondo.javaCore8;
+
+public class ClosureExample {
+
+	public static void main(String[] args) {
+
+	}
+
+	interface Process {
+		void process();
+	}
+
+}

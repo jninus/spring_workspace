@@ -1,0 +1,7 @@
+package com.reda.springmvcorm.services.impl;
+
+import com.reda.springmvcorm.services.UserService;
+
+public class UserServiceImpl implements UserService {
+
+}

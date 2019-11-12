@@ -1,0 +1,13 @@
+INDEX VERSION 1.131
+/home/reda/Documents/Projet/JAVAEE/workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3153971817.index
+/springmvc/src/main/resources
+/home/reda/Documents/Projet/JAVAEE/workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/823965183.index
+/springmcvmigration/src/main/resources
+/home/reda/Documents/Projet/JAVAEE/workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1079386244.index
+/springmvcorm/src/main/resources
+/home/reda/Documents/Projet/JAVAEE/workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1234903321.index
+/springmvc/src/main/java
+/home/reda/Documents/Projet/JAVAEE/workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2405577228.index
+/springmcvmigration/src/main/resources
+/home/reda/Documents/Projet/JAVAEE/workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3075340003.index
+/springmvcorm/src/main/java

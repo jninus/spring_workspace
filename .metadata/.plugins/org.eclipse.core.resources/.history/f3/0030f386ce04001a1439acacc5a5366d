@@ -1,0 +1,10 @@
+package io.redondo.unit3;
+
+public class CollcetionIterationExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

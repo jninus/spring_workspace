@@ -1,0 +1,24 @@
+package io.redondo.javaCore8;
+
+public class ClosureExample {
+
+	public static void main(String[] args) {
+		int a = 10;
+		doProcess(1, new Process() {
+
+			@Override
+			public void process(int i) {
+				System.out.println(i);
+			}
+		});
+	}
+
+	public static void doProcess(int i, Process p) {
+		p.process(i);
+	}
+
+	interface Process {
+		void process(int i);
+	}
+
+}

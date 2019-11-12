@@ -1,0 +1,14 @@
+package com.redondo.spring.springjdbc.employee.dao.impl;
+
+import com.redondo.spring.springjdbc.employee.dao.EmployeeDao;
+import com.redondo.spring.springjdbc.employee.entity.Employee;
+
+public class EmployeeDaoImpl implements EmployeeDao {
+
+	@Override
+	public int create(Employee employee) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

@@ -1,0 +1,5 @@
+package springmcvmigration.controller;
+
+public class HelloController {
+
+}

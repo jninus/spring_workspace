@@ -1,0 +1,9 @@
+package com.redondo.spring.boot.springboot.service;
+
+import com.redondo.spring.boot.springboot.dao.Dao;
+
+public class Service {
+
+	Dao dao;
+
+}

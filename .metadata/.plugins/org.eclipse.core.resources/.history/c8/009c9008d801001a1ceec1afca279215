@@ -1,0 +1,10 @@
+package com.redondo.spring.springjavaconfig.service;
+
+import com.redondo.spring.springjavaconfig.dao.Dao;
+
+public class Service {
+
+	@Autowired
+	Dao dao;
+	
+}

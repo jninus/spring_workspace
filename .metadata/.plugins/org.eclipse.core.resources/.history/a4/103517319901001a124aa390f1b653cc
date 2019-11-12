@@ -1,0 +1,5 @@
+package com.reda.springmvcorm.controllers;
+
+public class UserController {
+
+}

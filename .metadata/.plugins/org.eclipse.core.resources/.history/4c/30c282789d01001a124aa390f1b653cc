@@ -1,0 +1,9 @@
+package com.reda.springmvcorm.dao;
+
+import com.reda.springmvcorm.entity.User;
+
+public interface UserDao {
+	
+	int createUser(User user);
+
+}

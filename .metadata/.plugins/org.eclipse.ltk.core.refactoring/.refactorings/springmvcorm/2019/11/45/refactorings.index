@@ -1,0 +1,6 @@
+1573155852959	Delete element
+1573155901297	Rename resource 'config.xml'
+1573156613711	Encapsulate field 'hibernateTemplate'
+1573156764118	Encapsulate field 'dao'
+1573156853291	Encapsulate field 'service'
+1573157598540	Delete element

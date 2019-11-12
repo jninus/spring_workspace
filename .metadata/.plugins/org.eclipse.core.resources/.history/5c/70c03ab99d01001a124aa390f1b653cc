@@ -1,0 +1,9 @@
+package com.reda.springmvcorm.services;
+
+import com.reda.springmvcorm.entity.User;
+
+public interface UserService {
+
+	int save(User user);
+
+}

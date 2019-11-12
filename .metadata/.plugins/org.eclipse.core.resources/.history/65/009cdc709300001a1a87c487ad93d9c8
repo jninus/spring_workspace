@@ -1,0 +1,8 @@
+package com.redondo.spring.springjdbc.passenger.dao.impl;
+
+public class Snippet {
+	public static void main(String[] args) {
+		com.redondo.spring.springjdbc.employee.dao.impl
+	}
+}
+

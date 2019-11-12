@@ -1,0 +1,16 @@
+package com.redondo.spring.boot.springboot.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.redondo.spring.boot.springboot.dao.Dao;
+
+public class Service {
+
+	Dao dao;
+
+	@Autowired
+	Service() {
+
+	}
+
+}

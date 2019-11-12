@@ -1,0 +1,14 @@
+package io.redondo.unit3;
+
+public class MethodReferenceExample2 {
+
+	public static void main(String[] args) {
+
+		Thread thread = new Thread(MethodReferenceExample2::printMessage);   // Method Reference
+		thread.start();
+	}
+
+	public static void printMessage() {
+		System.out.println("Hello");
+	}
+}

@@ -1,0 +1,21 @@
+package com.redondo.spring.springjavaconfig.test;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.support.AbstractApplicationContext;
+
+import com.redondo.spring.springjavaconfig.config.SpringConfig;
+import com.redondo.spring.springjavaconfig.service.Service;
+
+public class Test {
+	
+	public static void main(String[] args) {
+		
+		AbstractApplicationContext context = new AnnotationConfigApplicationContext(SpringConfig.class);;
+		
+		Service service = context.getBean(Service.class);
+		service.save();
+		context.close();
+	}
+
+}

@@ -1,0 +1,11 @@
+package io.redondo.javaCore8;
+
+import io.redondo.javaCore8.ClosureExample.Process;
+
+public class ThisReferenceExample {
+
+	public void doProcess(int i, Process p) {
+		p.process(i);
+	}
+
+}

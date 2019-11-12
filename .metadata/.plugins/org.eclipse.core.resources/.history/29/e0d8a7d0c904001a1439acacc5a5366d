@@ -1,0 +1,8 @@
+package io.redondo.unit3;
+
+public class MethodReferenceExample1 {
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.reda.springmvcorm.entity;
+
+public class User {
+
+}

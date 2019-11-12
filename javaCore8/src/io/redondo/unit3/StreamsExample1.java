@@ -1,0 +1,21 @@
+package io.redondo.unit3;
+
+import java.util.Arrays;
+import java.util.List;
+
+import io.redondo.javaCore8.Person;
+
+public class StreamsExample1 {
+
+	public static void main(String[] args) {
+		List<Person> people = Arrays.asList(new Person("Reda", "Zejli", 29), new Person("Jack", "Reacher", 20),
+				new Person("Arthur", "Bishop", 43), new Person("Billy", "Boy", 23),
+				new Person("Frankie", "De jong", 21), new Person("John", "Wick", 39));
+
+		people.stream()
+		.filter(p -> p.getLname().startsWith("Z"))
+		.forEach(System.out::println);
+
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.redondo.spring.boot.springboot.service;
+
+public class Service {
+
+}

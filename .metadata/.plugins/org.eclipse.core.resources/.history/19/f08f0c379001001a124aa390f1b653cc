@@ -1,0 +1,5 @@
+package com.redondo.spring.springmvc.controller;
+
+public class RequestParamController {
+
+}
